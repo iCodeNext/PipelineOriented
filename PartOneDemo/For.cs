@@ -13,7 +13,6 @@ internal class For
         }
         return count;
     }
-
     public int DoWithPipeline()
     {
         return list.Select(x => x + 2)
